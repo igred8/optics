@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="apertures.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1059.0476"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-32000"
+     inkscape:window-y="-32000"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g868"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100">
+      <rect
+         style="fill:#ffffff;stroke:none;stroke-width:5.27612;stroke-linecap:round;stroke-linejoin:round"
+         id="rect833"
+         width="200"
+         height="200"
+         x="327.49109"
+         y="56.482128" />
+      <rect
+         style="fill:#000000;stroke:none;stroke-width:0.789446;stroke-linecap:round;stroke-linejoin:round"
+         id="rect835"
+         width="3"
+         height="200"
+         x="425.99109"
+         y="56.482128" />
+      <rect
+         style="fill:#000000;stroke:none;stroke-width:0.789445;stroke-linecap:round;stroke-linejoin:round"
+         id="rect835-6"
+         width="3"
+         height="200"
+         x="154.98213"
+         y="-527.49109"
+         transform="rotate(90)" />
+      <circle
+         style="fill:#000000;stroke:none;stroke-width:1.13432;stroke-linecap:round;stroke-linejoin:round"
+         id="path852"
+         cx="427.49109"
+         cy="156.48213"
+         r="12.5" />
+    </g>
+  </g>
+</svg>
