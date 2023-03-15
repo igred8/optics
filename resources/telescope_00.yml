@@ -1,0 +1,23 @@
+lens_01:
+  eleprops: 
+    eletype: 'lens'
+    position: 0.0
+    focal_len: 0.035
+
+lens_02:
+  eleprops: 
+    eletype: 'lens'
+    position: 0.335
+    focal_len: 0.300
+
+lens_03:
+  eleprops: 
+    eletype: 'lens'
+    position: 0.350
+    focal_len: 0.035
+
+lens_04:
+  eleprops: 
+    eletype: 'lens'
+    position: 0.585
+    focal_len: 0.200
