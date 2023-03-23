@@ -2,7 +2,7 @@
 import numpy as np
 from scipy import fft
 from scipy.constants import pi
-import cv2
+
 import matplotlib.pyplot as plt
 
 import diffractsim as ds
@@ -41,6 +41,30 @@ def rect2d(xx, yy, x0, y0, xwidth, ywidth, zeroval=0.0):
     zz = zz & (yy <= y0 + ywidth/2) & (yy >= y0 - ywidth/2)
 
     return np.array(zz, dtype=np.float64)
+
+def circ2d(xx, yy, x0, y0, xwidth, ywidth, zeroval=0.0):
+    """
+    Circular slit.
+    Center at (x0, y0) with xwidth,ywidth dimensions
+
+    zeroval - 0.0, value of function at discontinuity
+
+    """
+
+    # 10x faster than np.heaviside and more intuitive
+    zz = ( (xx - x0)**2 / xwidth**2 + (yy - y0)**2 / ywidth**2 ) <= 1.0
+
+    return np.array(zz, dtype=np.float64)
+    
+def smooth_convolve( arr, convarr ):
+    amin = arr.min()
+    amax = arr.max()
+    arrfft = fft.fftshift(fft.fft2( arr )) * convarr
+    arrsmooth = np.abs(fft.ifft2( fft.ifftshift( arrfft )))
+    arrsmooth = (arrsmooth - arrsmooth.min()) / (arrsmooth.max() - arrsmooth.min())
+    arrsmooth = arrsmooth * (amax - amin) + amin
+    return arrsmooth
+
 
 def deltafunc_2d( xx, yy, x0, y0 ):
     """

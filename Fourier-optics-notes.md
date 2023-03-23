@@ -5,8 +5,14 @@
 ---
 __Ersoy - Diffraction, Fourier optics, and imaging 2007__
 
+__Rafael de la Fuente [Diffraction Simulations](https://rafael-fuente.github.io/simulating-diffraction-patterns-with-the-angular-spectrum-method-and-python.html)__
 
 ## Continuous formulation
+
+The phasor representation of a scalar field propagating by the Helmholtz equation is used for mathematical ease. The scalar field is complex valued, but only the real part is taken for computing measurable quantities.
+
+$$ U(x,y,z) = \mathfrak{Re}\big[U(\vec{r})e^{i\phi(\vec{r})}e^{i\omega t} \big]$$
+Usually the $\mathfrak{Re}$ is implicitly understood from context and omitted inside equations.
 
 The 2D Fourier transform of the scalar field is referred to as the angular spectrum of the field. 
 
